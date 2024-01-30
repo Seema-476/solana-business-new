@@ -1,0 +1,98 @@
+:root {
+    /* font-size  */
+    --fs-xsm: 10px;
+    --fs-sm: 12px;
+    --fs-md: 14px;
+    --fs-mmd: 18px;
+    --fs-lg: 20px;
+    --fs-llg: 24px;
+    --fs-xl: 36px;
+    --fs-xxl: 48px;
+    /* font-color  */
+    --fc-black: #000;
+    --fc-white: #fff;
+    --fc-red: #f4241e;
+    --fc-dark-grey: #33300d;
+    --fc-grey: #4d4813;
+    --fc-yellow: #F6E300;
+    --fc-light-yellow: #Fff03f;
+
+
+
+}
+
+@media(min-width: 320px) {
+    .heading-2 {
+        --fs-xxl: 31px;
+    }
+
+    .paragraph {
+        --fs-mmd: 15px;
+    }
+
+    .welcome {
+        --fs-xl: 30px;
+    }
+
+    .supplies {
+        --fs-xxl: 35px;
+    }
+
+    .number {
+        --fs-xxl: 30px;
+    }
+
+    .text {
+        --fs-mmd: 11px;
+    }
+    .roadmap{
+        --fs-xxl: 31px;
+    }
+    .launch{
+        --fs-llg: 20px
+    }
+}
+
+@media(min-width: 576px) {
+    .heading-2 {
+        --fs-xxl: 48px;
+    }
+
+    .paragraph {
+        --fs-mmd: 18px;
+    }
+
+    .welcome {
+        --fs-xl: 36px;
+    }
+         .number {
+             --fs-xxl: 35px;
+         }
+         .roadmap {
+             --fs-xxl: 48px;
+         }
+                  .text {
+                      --fs-mmd: 15px;
+                  }
+
+}
+
+@media(min-width: 768px) {
+    .text {
+            --fs-mmd: 18px;
+        }
+                  .launch {
+                      --fs-llg: 24px
+                  }
+}
+
+@media(min-width: 992px) {
+    .supplies {
+        --fs-xxl: 48px;
+    }
+
+    .number {
+        --fs-xxl: 48px;
+    }
+      
+}
